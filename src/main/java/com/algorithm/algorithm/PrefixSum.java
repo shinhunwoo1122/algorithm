@@ -20,7 +20,6 @@ import lombok.extern.slf4j.Slf4j;
 public class PrefixSum {
 
     public static void main(String[] args) {
-
         //최초 배열 값 지정
         int[] arr = {10, 20, 3, 7, 12, 15};
         //합배열을 위한 배열 생성
@@ -41,8 +40,5 @@ public class PrefixSum {
 
         //2번인덱스 부터 5번 인덱스 까지의 구간 합 구하기
         log.info("구간 합 값 : {} ", (sumArr[j] - sumArr[i - 1]));
-
-
-
     }
 }
