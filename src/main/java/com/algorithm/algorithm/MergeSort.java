@@ -13,7 +13,6 @@ public class MergeSort {
             merge(arr, tmp, start, mid, end);
         }
     }
-
     private static void merge(int[] arr, int[] tmp, int start, int mid, int end) {
         System.out.println("start = " + start);
         System.out.println("end = " + end);
@@ -37,14 +36,12 @@ public class MergeSort {
             arr[index + i] = tmp[part1 + i];
         }
     }
-
     private static void printArray(int[] arr){
         for(int data : arr){
             System.out.print(data + ", ");
         }
         System.out.println();
     }
-
     public static void main(String[] args) {
         int[] arr = {3, 9, 4, 7, 0, 1, 6, 8, 2};
         printArray(arr);
