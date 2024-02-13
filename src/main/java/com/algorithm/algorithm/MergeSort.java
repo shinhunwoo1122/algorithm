@@ -1,10 +1,16 @@
 package com.algorithm.algorithm;
 
 public class MergeSort {
+
+
+
     private static void mergeSort(int[] arr){
         int[] tmp = new int[arr.length];
         mergeSort(arr, tmp, 0, arr.length - 1);
     }
+
+
+
     private static void mergeSort(int[] arr, int[] tmp, int start, int end){
         if(start < end){
             int mid = (start + end) / 2;
@@ -13,6 +19,9 @@ public class MergeSort {
             merge(arr, tmp, start, mid, end);
         }
     }
+
+
+
 
     private static void merge(int[] arr, int[] tmp, int start, int mid, int end) {
         System.out.println("start = " + start);
