@@ -9,8 +9,6 @@ public class MergeSort {
         mergeSort(arr, tmp, 0, arr.length - 1);
     }
 
-
-
     private static void mergeSort(int[] arr, int[] tmp, int start, int end){
         if(start < end){
             int mid = (start + end) / 2;
@@ -19,9 +17,6 @@ public class MergeSort {
             merge(arr, tmp, start, mid, end);
         }
     }
-
-
-
 
     private static void merge(int[] arr, int[] tmp, int start, int mid, int end) {
         System.out.println("start = " + start);
@@ -52,8 +47,6 @@ public class MergeSort {
         }
         System.out.println();
     }
-
-
 
     public static void main(String[] args) {
         int[] arr = {3, 9, 4, 7, 0, 1, 6, 8, 2};
