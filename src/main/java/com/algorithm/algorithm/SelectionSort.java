@@ -17,6 +17,8 @@ public class SelectionSort {
     * 최종 output {1, 2, 3, 4, 6, 8}
     *
     * */
+
+
     private static void selectionSort(int[] arr){
         selectionSort(arr, 0);
     }

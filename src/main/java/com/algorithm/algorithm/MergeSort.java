@@ -4,10 +4,15 @@ public class MergeSort {
 
 
 
+
+
     private static void mergeSort(int[] arr){
         int[] tmp = new int[arr.length];
         mergeSort(arr, tmp, 0, arr.length - 1);
     }
+
+
+
 
     private static void mergeSort(int[] arr, int[] tmp, int start, int end){
         if(start < end){
@@ -17,6 +22,8 @@ public class MergeSort {
             merge(arr, tmp, start, mid, end);
         }
     }
+
+
 
     private static void merge(int[] arr, int[] tmp, int start, int mid, int end) {
         System.out.println("start = " + start);
@@ -41,6 +48,8 @@ public class MergeSort {
             arr[index + i] = tmp[part1 + i];
         }
     }
+
+
     private static void printArray(int[] arr){
         for(int data : arr){
             System.out.print(data + ", ");
