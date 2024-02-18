@@ -48,8 +48,6 @@ public class MergeSort {
             arr[index + i] = tmp[part1 + i];
         }
     }
-
-
     private static void printArray(int[] arr){
         for(int data : arr){
             System.out.print(data + ", ");
