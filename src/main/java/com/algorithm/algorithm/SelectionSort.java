@@ -19,11 +19,6 @@ public class SelectionSort {
     * */
 
 
-
-
-
-
-
     private static void selectionSort(int[] arr){
         selectionSort(arr, 0);
     }
