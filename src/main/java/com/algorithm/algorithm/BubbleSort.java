@@ -16,9 +16,6 @@ public class BubbleSort {
     public static void bubleSort(int[] arr){
         System.out.println("arr.length = " + arr.length);
         bubleSort(arr, arr.length - 1);
-
-
-
     }
     private static void bubleSort(int[] arr, int last){
         if(last > 0){
@@ -30,14 +27,10 @@ public class BubbleSort {
             }
             bubleSort(arr, last - 1);
         }
-
-
-
     }
+
+
     public static void swap(int[] arr, int source, int target) {
-
-
-
         //swap을 위한 값 source 한칸 오른쪽으로 밀기전의 값 target 보다 큰 수
         //tmp를 만들어 해당 값을 미리 지정해놓고 target에다 큰 값을 넣어준 후고 sorce값에 기존에 지정해놓은 tmp값을 넣어줘서 정렬처리함.
         int tmp = arr[source];
