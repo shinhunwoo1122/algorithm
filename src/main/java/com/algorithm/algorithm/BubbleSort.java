@@ -18,10 +18,6 @@ public class BubbleSort {
         bubleSort(arr, arr.length - 1);
     }
 
-
-
-
-
     private static void bubleSort(int[] arr, int last){
         if(last > 0){
             for(int i = 1; i <= last; i++){
