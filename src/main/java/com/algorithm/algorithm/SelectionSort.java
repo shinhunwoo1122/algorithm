@@ -26,6 +26,10 @@ public class SelectionSort {
 
 
 
+
+
+
+
         if(start < arr.length -1){
             int min_index = start;
             for(int i = start; i < arr.length; i++){
