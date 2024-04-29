@@ -19,17 +19,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class PrefixSum {
 
-
-
-
-
-
-
     public static void main(String[] args) {
-
-
-
-
         //최초 배열 값 지정
         int[] arr = {10, 20, 3, 7, 12, 15};
         //합배열을 위한 배열 생성
