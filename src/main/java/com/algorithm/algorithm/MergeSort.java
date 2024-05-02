@@ -17,10 +17,6 @@ public class MergeSort {
 
 
 
-
-
-
-
         if(start < end){
             int mid = (start + end) / 2;
             mergeSort(arr, tmp, start, mid);
