@@ -18,9 +18,6 @@ public class BubbleSort {
         bubleSort(arr, arr.length - 1);
     }
 
-
-
-
     private static void bubleSort(int[] arr, int last){
         if(last > 0){
 
@@ -34,8 +31,6 @@ public class BubbleSort {
             bubleSort(arr, last - 1);
         }
     }
-
-
 
     public static void swap(int[] arr, int source, int target) {
         //swap을 위한 값 source 한칸 오른쪽으로 밀기전의 값 target 보다 큰 수
