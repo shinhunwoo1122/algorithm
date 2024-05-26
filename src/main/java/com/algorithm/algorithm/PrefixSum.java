@@ -34,8 +34,6 @@ public class PrefixSum {
 
         }
 
-
-
         //67 30
         int i = 2;
         int j = 5;
