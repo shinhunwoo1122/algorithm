@@ -20,11 +20,6 @@ public class MergeSort {
     }
 
 
-
-
-
-
-
     private static void merge(int[] arr, int[] tmp, int start, int mid, int end) {
 
         System.out.println("start = " + start);
