@@ -23,12 +23,6 @@ public class SelectionSort {
         selectionSort(arr, 0);
     }
 
-
-
-
-
-
-
     private static void selectionSort(int[] arr, int start){
         if(start < arr.length -1){
             int min_index = start;
@@ -39,9 +33,6 @@ public class SelectionSort {
             selectionSort(arr, start + 1);
         }
     }
-
-
-
 
     private static void swap(int[] arr, int index1, int index2){
         int tmp = arr[index1];
