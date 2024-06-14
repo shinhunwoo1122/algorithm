@@ -19,11 +19,12 @@ public class MergeSort {
     }
 
 
-
-
-
-
     private static void merge(int[] arr, int[] tmp, int start, int mid, int end) {
+
+
+
+
+
 
 
         System.out.println("start = " + start);
@@ -34,6 +35,9 @@ public class MergeSort {
         int part1 = start;
         int part2 = mid + 1;
         int index = start;
+
+
+
         while (part1 <= mid && part2 <= end){
             if(tmp[part1] <= tmp[part2]){
                 arr[index] = tmp[part1];
