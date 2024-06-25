@@ -33,9 +33,6 @@ public class MergeSort {
         int part1 = start;
         int part2 = mid + 1;
         int index = start;
-
-
-
         while (part1 <= mid && part2 <= end){
 
 
