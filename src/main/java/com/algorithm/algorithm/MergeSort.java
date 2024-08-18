@@ -13,6 +13,10 @@ public class MergeSort {
             mergeSort(arr, tmp, mid + 1, end);
 
             merge(arr, tmp, start, mid, end);
+
+
+
+
     }
     private static void merge(int[] arr, int[] tmp, int start, int mid, int end) {
         System.out.println("start = " + start);
