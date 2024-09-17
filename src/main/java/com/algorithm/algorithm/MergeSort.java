@@ -58,18 +58,6 @@ public class MergeSort {
 
 
     private static void printArray(int[] arr){
-
-
-
-
-
-
-
-
-
-
-
-
         for(int data : arr){
             System.out.print(data + ", ");
         }
