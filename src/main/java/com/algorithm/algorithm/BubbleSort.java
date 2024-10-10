@@ -23,8 +23,6 @@ public class BubbleSort {
     private static void bubleSort(int[] arr, int last){
 
 
-
-
         if(last > 0){
             for(int i = 1; i <= last; i++){
                 //선택된 인덱스의값이 해당 arr의 값보다 크면 한칸 옆으로 이동하기 위해 swap함
