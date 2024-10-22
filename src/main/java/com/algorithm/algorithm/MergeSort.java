@@ -51,6 +51,10 @@ public class MergeSort {
         for(int i = 0; i <= mid - part1; i++){
             arr[index + i] = tmp[part1 + i];
         }
+
+
+
+
     }
 
 
