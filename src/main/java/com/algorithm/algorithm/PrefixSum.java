@@ -37,6 +37,8 @@ public class PrefixSum {
             sumArr[i] = sumArr[i - 1] + arr[i];
             log.info("구간합 값 {} " , sumArr[i]);
 
+
+
         }
 
         //67 30
