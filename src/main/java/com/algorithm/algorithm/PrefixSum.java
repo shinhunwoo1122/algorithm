@@ -21,9 +21,6 @@ public class PrefixSum {
 
     public static void main(String[] args) {
 
-
-
-
         //최초 배열 값 지정
         int[] arr = {10, 20, 3, 7, 12, 15};
         //합배열을 위한 배열 생성
@@ -31,8 +28,6 @@ public class PrefixSum {
 
         //최초값은 똑같이 지정해준다.
         sumArr[0] = arr[0];
-
-
 
 
 
