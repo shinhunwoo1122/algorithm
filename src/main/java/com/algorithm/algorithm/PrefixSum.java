@@ -40,9 +40,6 @@ public class PrefixSum {
             log.info("구간합 값 {} " , sumArr[i]);
         }
 
-
-
-
         //67 30
         int i = 2;
         int j = 5;
