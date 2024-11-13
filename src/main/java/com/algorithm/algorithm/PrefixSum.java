@@ -31,9 +31,6 @@ public class PrefixSum {
 
 
 
-
-
-
         //합배열 공식을 사용하여 1번 인덱스부터 해당 인덱스 -1의 값과 Arr에 담겨있는 값과 합쳐줘서 합배열에 저장한다.
         for(int i = 1; i < arr.length; i++){
             sumArr[i] = sumArr[i - 1] + arr[i];
