@@ -28,10 +28,6 @@ public class MergeSort {
 
 
 
-
-
-
-
         System.out.println("start = " + start);
         System.out.println("end = " + end);
         for(int i = start; i <= end; i++){

@@ -19,6 +19,9 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class PrefixSum {
 
+
+
+
     public static void main(String[] args) {
 
         //최초 배열 값 지정
@@ -28,6 +31,10 @@ public class PrefixSum {
 
         //최초값은 똑같이 지정해준다.
         sumArr[0] = arr[0];
+
+
+
+
 
 
 
