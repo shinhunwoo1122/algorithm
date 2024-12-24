@@ -13,10 +13,6 @@ public class MergeSort {
             mergeSort(arr, tmp, start, mid);
             mergeSort(arr, tmp, mid + 1, end);
 
-
-
-
-
             merge(arr, tmp, start, mid, end);
 
     }
