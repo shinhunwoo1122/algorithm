@@ -20,11 +20,6 @@ import lombok.extern.slf4j.Slf4j;
 public class PrefixSum {
 
 
-
-
-
-
-
     public static void main(String[] args) {
 
 
