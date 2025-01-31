@@ -18,7 +18,6 @@ import lombok.extern.slf4j.Slf4j;
 * */
 @Slf4j
 public class PrefixSum {
-
     public static void main(String[] args) {
         //최초 배열 값 지정
         int[] arr = {10, 20, 3, 7, 12, 15};
@@ -27,8 +26,6 @@ public class PrefixSum {
 
         //최초값은 똑같이 지정해준다.
         sumArr[0] = arr[0];
-
-
         //합배열 공식을 사용하여 1번 인덱스부터 해당 인덱스 -1의 값과 Arr에 담겨있는 값과 합쳐줘서 합배열에 저장한다.
         for(int i = 1; i < arr.length; i++){
             sumArr[i] = sumArr[i - 1] + arr[i];
