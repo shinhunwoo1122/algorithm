@@ -27,10 +27,6 @@ public class BubbleSort {
                 }
             }
 
-
-
-
-
             bubleSort(arr, last - 1);
         }
     }
