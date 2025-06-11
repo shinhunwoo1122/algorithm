@@ -4,9 +4,6 @@ public class MergeSort {
 
     private static void mergeSort(int[] arr){
 
-
-
-
         int[] tmp = new int[arr.length];
         mergeSort(arr, tmp, 0, arr.length - 1);
     }
@@ -15,7 +12,6 @@ public class MergeSort {
             int mid = (start + end) / 2;
             mergeSort(arr, tmp, start, mid);
             mergeSort(arr, tmp, mid + 1, end);
-
             merge(arr, tmp, start, mid, end);
 
     }
